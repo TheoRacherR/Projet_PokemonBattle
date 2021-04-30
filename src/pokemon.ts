@@ -8,7 +8,6 @@ export class Pokemon {
     offensive_stat: number;
     defensive_stat: number;
 
-
     constructor(name: string, hp: number, level: number, base_power: number, offensive_stat: number, defensive_stat: number){
         this.name = name;
         this.hp = hp;

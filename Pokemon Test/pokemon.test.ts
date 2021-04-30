@@ -6,7 +6,6 @@ test("Pokemon B is the winner", () => {
     expect(PokeA.fight(PokeB)).toBe(PokeB);
 });
 
-
 test("Pokemon A is the winner", () => {
     const PokeA = new Pokemon("Letaligon", 100, 2, 1, 134, 115);
     const PokeB = new Pokemon("Polaryu", 85, 2, 1, 75, 90);
